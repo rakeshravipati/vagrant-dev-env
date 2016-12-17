@@ -70,4 +70,7 @@ Vagrant.configure(2) do |config|
   # SHELL
 
   config.vm.provision "shell", path: "provision.sh"
+
+  config.vm.network "forwarded_port", guest: 80, host: 8080, id: "nginx"
+
 end
