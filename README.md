@@ -1,1 +1,1 @@
-Local PHP development, environment setup [nginx+php5-fpm]
+Local PHP development, environment setup [nginx + mysql5.7]
